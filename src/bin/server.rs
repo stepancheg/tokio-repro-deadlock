@@ -1,29 +1,11 @@
 use futures::future;
 use futures::future::FutureExt;
 
-extern crate httpbis_test;
-
-
-
-
-
-
-
-
 use std::thread;
-
-
-
-
 
 use futures::channel::oneshot;
 
-
-
-
-
 use std::sync::mpsc;
-
 
 use tokio::runtime::Runtime;
 
