@@ -1,0 +1,16 @@
+[package]
+name = "httpbis-test"
+version = "0.0.0"
+authors = ["Stepan Koltsov <stepan.koltsov@gmail.com>"]
+publish = false
+edition = "2018"
+description = """
+Repro
+"""
+
+[dependencies]
+
+futures            = "0.3.1"
+tokio = { version = "~0.2.6", features = ["net"] }
+
+[workspace]
